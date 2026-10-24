@@ -21,9 +21,10 @@ Se desarrollaron cuatro módulos principales:
 - **MUX 2:1:** selecciona entre dos entradas de datos mediante una señal de control.
 
 
-## 2. Estructura del proyecto
+## 2. Estructura del proyecto (.zip)
 
 ```text
+PROCESADOR_UNICICLO/
 ├── src/
 │   ├── alu.sv
 │   ├── register_file.sv
@@ -37,7 +38,14 @@ Se desarrollaron cuatro módulos principales:
 │   └── mux_tb.sv
 │
 ├── docs/
-│   └── Grupo03informe.pdf
+│   ├── Grupo03informe.pdf
+│   ├── matriz_pruebas.xlsx
+│   │
+│   └── evidencias/
+│       ├── alu.png
+│       ├── register_file.png
+│       ├── imm_gen.png
+│       └── mux.png
 │
 └── README.md
 ```
@@ -59,7 +67,9 @@ Cada módulo tiene un testbench independiente que verifica su funcionamiento.Las
 
 ### Resultados
 
-| Módulo | Pruebas | PASS | FAIL |
+Se elaboró una matriz de verificación funcional que documenta los 25 casos de prueba ejecutados sobre los cuatro componentes del procesador. La matriz incluye el identificador de cada prueba, el módulo evaluado, las condiciones de entrada, los resultados esperados, los resultados obtenidos y el estado de verificación (PASS/FAIL).
+
+| Componente | Pruebas ejecutadas | PASS | FAIL |
 |---|---:|---:|---:|
 | ALU | 7 | 7 | 0 |
 | Register File | 4 | 4 | 0 |
@@ -67,7 +77,7 @@ Cada módulo tiene un testbench independiente que verifica su funcionamiento.Las
 | MUX | 4 | 4 | 0 |
 | **Total** | **25** | **25** | **0** |
 
-Los 25 casos de prueba ejecutados obtuvieron resultados satisfactorios, verificando las funcionalidades evaluadas de los cuatro módulos.
+Los 25 casos de prueba obtuvieron resultados satisfactorios, verificando el funcionamiento de los cuatro componentes en las condiciones evaluadas.
 
 
 ## 5. Simulaciones en EDA Playground

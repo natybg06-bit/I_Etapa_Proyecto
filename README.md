@@ -112,7 +112,7 @@ Se verificaron cuatro casos de prueba relacionados con la lectura, escritura, ac
 
 ### 6.3 Generador de inmediatos (Immediate Generator)
 
-Se verificaron diez casos de prueba para los formatos I-type y S-type, incluyendo valores positivos, negativos, cero y límites de representación. Todas las pruebas obtuvieron resultados satisfactorios.
+Se verificaron diez casos de prueba para los formatos tipo I y S, incluyendo valores positivos, negativos, cero y límites de representación. Todas las pruebas obtuvieron resultados satisfactorios.
 
 <img width="769" height="535" alt="image" src="https://github.com/user-attachments/assets/ce8caa5e-5dc5-4ed0-8cfb-c52a0f2f6e57" />
 
